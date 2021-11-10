@@ -1,11 +1,4 @@
-pipeline{
-    agent any
-  
-  stages {
-    stage ('First stage') {
-      steps {
-        echo 'Hello world'
-      }
-    }
-  }
+@Library('devops-dsl') _
+demoGroovy{
+    mailList = 'prvns01@gmail.com'
 }

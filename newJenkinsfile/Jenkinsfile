@@ -1,4 +1,4 @@
 @Library('devops-dsl') _
 demoGroovy{
-    mailList = 'prvns01@gmail.com'
+    mailList = 'abc@gmail.com'
 }

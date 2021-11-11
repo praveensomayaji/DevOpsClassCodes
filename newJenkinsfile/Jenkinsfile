@@ -1,5 +1,5 @@
 @Library('devops-dsl') _
 demoGroovy{
-    mailList = 'abc@gmail.com'
+    mailList = 'testMail@gmail.com'
     node = 'Winslave'
 }
